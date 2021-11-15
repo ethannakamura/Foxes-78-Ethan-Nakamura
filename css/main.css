@@ -1,0 +1,113 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background-color:rgb(158, 158, 158);
+}
+nav{
+    background-color:rgb(44, 44, 44);
+    font-size:larger;
+    display: block;
+    width:100%;
+    margin: 0px;
+    padding: 15px;
+    text-align:left;
+}
+
+nav a{
+    color:rgba(255, 255, 255, 0.788);
+    text-decoration: none;
+}
+
+a:hover {
+color:rgb(255, 94, 0);
+background-color: transparent;
+text-decoration: none;
+}
+
+.header-image{
+    background-image:url("../images/Son1.png"); 
+    height: 70%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position:relative;
+}
+.header-image-text{
+    color:rgb(255, 255, 255);
+    text-align:center;
+    position: absolute;
+    top: 80%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:40px;
+
+}
+body-articles{
+    background-color:black;
+    border-radius:20px;
+}
+
+.proffie{
+    background-color: black;
+    border-radius: 30px;
+    width:250px; 
+    height: 300px
+}
+
+#side{
+    width:20%;
+    float:right;
+    height:100%;
+    padding:20px;
+    color:rgb(255, 255, 255);
+}
+.head{
+    background-image:url('../images/Background.png');
+    border-radius:50px;
+    text-align:center;
+}
+#lissst{
+    background-image:url('../images/Background.png');
+    border-radius:50px;
+    text-align:center;
+}
+.info{
+    background-image:url('../images/Background.png');
+    border-radius:50px;
+    height:-60px;
+    text-align:center;
+    list-style-type:none;
+}
+.tacos{
+    border-radius:50px;
+    padding-bottom:20px;
+}
+.music{
+    border-radius:50px;
+}
+.books{
+    border-radius:50px;
+    border: 30px solid=gold;
+}
+
+.insta{
+    border-radius:50px;
+}
+.tiktok{
+    border-radius:10px;
+    border-color:white;
+}
+
+#socials{
+    background-image:url('../images/Background.png');
+    border-radius: 80px;
+    border-top-width: 20px;
+    text-align:center;
+    text-decoration:none;
+}
+
+
