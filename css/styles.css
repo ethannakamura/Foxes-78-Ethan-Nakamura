@@ -1,0 +1,157 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+body{
+    background-color:rgb(158, 158, 158);
+}
+.banner-image{
+    background-image:url("../images/Son1.png"); 
+    color:rgb(255, 255, 255);
+    text-align:center;
+    font-size: 100px;
+    top: -190px;
+    color: white;
+    height: 80%;
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    display:inline;
+    position:relative;
+    margin: 0px;
+    font-size: 120px;
+    top: 700px;
+
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    color:white;
+    border: 3px solid rgb(255, 187, 0);
+    justify-content: space-around;
+    margin: 0px;
+    padding: 20px;
+    background-image:url('../images/Background.png');
+    font-weight:bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:130%
+}
+a:active{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+    }
+a:hover{
+    color:rgb(255, 187, 0);
+    background-color: transparent;
+    text-decoration: none;
+    }
+a:visited{
+    color:silver;
+    background-color:transparent;
+    text-decoration:none;
+}
+#main-content{
+    float:left;
+    width:70%;
+    padding-left: 40px
+}
+#side-info{
+    float:right;
+    width:20%;
+    padding-right:60px;
+    text-align:center;
+}
+
+.ulbaby{
+    list-style-type: none;
+    text-align: center;
+    background-image:url('../images/Background.png');
+    color:white;
+    border-radius:10px;
+}
+
+.wife-me{
+    width:300px; 
+    height:250px;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+.me2{
+    width:250px; 
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+.profilepic{
+    width:250px;
+    height:300px;
+    border-radius:50%;
+    border: 3px solid black;
+}
+.tacos{
+    width: 250px;
+    height: 250px;
+    border-radius:10px;
+    border: 3px solid black;
+}
+
+.music{
+    width: 250px;
+    height: 250px;
+    border-radius:10px;
+    border: 3px solid black;
+}
+
+.books{
+    width: 250px;
+    height: 250px;
+    border-radius:10px;
+    border: 3px solid black;
+}
+.par{
+    width:80%;
+    background-color:rgb(107, 107, 107);
+    border-radius:10px;
+    border: 3px solid black;
+    color:white;
+}
+.design{
+    background-image:url('../images/Background.png');
+    color:white;
+    border-radius:10px;
+}
+.tiktok{
+    width: 50px;
+    height: 50px;
+    border-radius:10px;
+}
+.insta{
+    width: 50px;
+    height: 50px;
+    border-radius:10px;
+}
+.comment{
+    text-align:center;
+    background-image:url('../images/Background.png');
+    color:white;
+    border-radius:10px;
+}
+.form{
+    background-image:url('../images/Background.png');
+    color:white;
+    border-radius:10px;
+}
+
+h3{
+    background-image:url('../images/Background.png');
+    color:white;
+    border-radius:10px;  
+}
+
+.arrow{
+    width:200px;
+    height:125x;
+}
